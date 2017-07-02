@@ -6,7 +6,6 @@
   --task-bg: #F9B24F;
 }
 html{
-  //background-color: var(--main-bg-color);
   color: var(--text-color);
 }
 .pomodoroTimer {
