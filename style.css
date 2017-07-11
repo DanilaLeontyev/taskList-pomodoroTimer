@@ -10,6 +10,7 @@ html{
 }
 .pomodoroTimer {
   background-color: var(--second-bg-color);
+  min-width: 550px;
   max-width: 700px;
   margin: 0 auto;
   display: flex;
@@ -65,7 +66,7 @@ html{
 
 .content-wrapper {
   background-color: var(--content-bg-color);
-  width: 500px;
+  width: 650px;
   margin: 20px;
   padding: 20px;
   display: flex;
@@ -97,10 +98,11 @@ html{
 }
 
 .clock-wrapper {
-  background-color: var(--main-bg-color);
+  background-color: white;
+  color: black;
   border-radius: 10px;
   margin: 10px;
-  width: 180px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +117,10 @@ html{
     border: none;
     border-radius: 50%;
     margin-right: 10px;
-    background-color: var(--content-bg-color);
+    background: white url(assets/trash.png) 50% 50% no-repeat;
+
+  background-size: 15px ;
+
 }
 
 .clock {
