@@ -1,6 +1,6 @@
-let enterTask = document.querySelector('.enterTask');
-let addBtn = document.querySelector('.addTask');
-let taskList = document.querySelector('.taskList');
+const enterTask = document.querySelector('.enterTask');
+const addBtn = document.querySelector('.addTask');
+const taskList = document.querySelector('.taskList');
 
 function createTask() {
     let task = document.createElement('li');
